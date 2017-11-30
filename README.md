@@ -16,7 +16,7 @@ This is the repository for:
 
 This  course contains:
 
-- [Architecture and start-up of the training work environment.](./Practices/architecture.md)
+- [Architecture and start-up of the training work environment.](./Practice/architecture.md)
 - [Starting with Docker containers](./Docker/starting_docker.md)
 - [OpenNebula](./OpenNebula/starting_OpenNebula.md)
 - [SELinux](./SELinux/starting_SELinux.md)
