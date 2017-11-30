@@ -56,7 +56,13 @@ This is the schema of the port range:
 
 Each user has 10 ports within the range ```14XXX```. The rank assigned to each user will be provided during the practice class, always being a contiguous range of ports.
 
-To access the services, depending on the service we will use the corresponding application. For example, if it is a web service that has been installed in port 14067, to see the service, we can see it in the browser: ```http://bahia.ugr.es:14067/``` and this will redirect traffic to the service that is running in that port within ```bahia.ugr.es```.
+To access the services, depending on the service we will use the corresponding application. For example, if it is a web service that has been installed/published in port 14067, to see the service, we can see it in the browser: ```http://bahia.ugr.es:14067/``` and this will redirect traffic to the service that is running in that port within ```bahia.ugr.es```.
+
+### Next steps
+
+Once understood the scheme of work and access to the servers, the next thing to do is work with Docker containers on ```bahia.ugr.es```
+
+[Starting docker](../Docker/starting_docker.md)
 
 
 
