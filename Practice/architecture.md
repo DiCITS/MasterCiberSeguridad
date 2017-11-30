@@ -52,7 +52,7 @@ So ports that are used locally on bahia.ugr.es and docker.ugr.es for services mu
 
 This is the schema of the port range:
 
-![Schema](https://github.com/dicits/MasterCiberSeguridad/blob/master/Practices/images/schema.png?raw=true)
+![Schema](https://github.com/dicits/MasterCiberSeguridad/blob/master/Practice/images/schema.png?raw=true)
 
 Each user has 10 ports within the range 14XXX. The rank assigned to each user will be provided during the practice class, always being a contiguous range of ports.
 
