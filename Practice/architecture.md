@@ -58,6 +58,29 @@ Each user has 10 ports within the range ```14XXX```. The rank assigned to each u
 
 To access the services, depending on the service we will use the corresponding application. For example, if it is a web service that has been installed/published in port 14067, to see the service, we can see it in the browser: ```http://bahia.ugr.es:14067/``` and this will redirect traffic to the service that is running in that port within ```bahia.ugr.es```.
 
+Table with port assignment:
+
+| 	User      |  bahia.ugr.es   |   docker.ugr.es | 
+|-------------|-----------------|-----------------|
+| cs_75XXXXX2 |  14000 al 14009	| 	30208,30209   | 
+| cs_76XXXXX5 |  14010 al 14010	| 	30210,30211   | 
+| cs_76XXXXX2 |  14020 al 14029	| 	30212,30213   | 
+| cs_44XXXXX9 |  14030 al 14039	| 	30214,30215   | 
+| cs_31XXXXX3 |  14040 al 14049	| 	30216,30217   | 
+| cs_14XXXXX8 |  14050 al 14059	| 	30218,30219   | 
+| cs_76XXXXX7 |  14060 al 14069	| 	30220,30221   | 
+| cs_75XXXXX4 |  14070 al 14079	| 	30222,30223   | 
+| cs_75XXXXX6 |  14080 al 14089	| 	30224,30225   | 
+| cs_15XXXXX7 |  14090 al 14099	| 	30226,30227   | 
+| cs_23XXXXX6 |  14100 al 14109	| 	30228,30229   | 
+| cs_14XXXXX5 |  14110 al 14119	| 	30230,30231   | 
+| cs_76XXXXX4 |  14120 al 14129	| 	30232,30233   | 
+| cs_46XXXXX1 |  14130 al 14139	| 	30234,30235   | 
+| cs_20XXXXX7 |  14140 al 14149	| 	30236,30237   | 
+| cs_77XXXXX4 |  14150 al 14159	| 	30238,30239   | 
+
+
+
 ### Next steps
 
 Once understood the scheme of work and access to the servers, the next thing to do is work with Docker containers on ```bahia.ugr.es```
