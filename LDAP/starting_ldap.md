@@ -118,7 +118,7 @@ dc = Domain Component
 
 The direct parent is an entry called ``ou=Users`` which is being used as a container for entries describing users.
 
-The parents of this entry derived from the ``openstack.org`` domain name, which functions as the root of our DIT.
+The parents of this entry derived from the ``openstack.org``  domain name, which functions as the root of our DIT.
 
 These are often used for the general categories under the top-level DIT entry, things like ```ou=people, ou=groups, and ou=inventory``` are common.
 
