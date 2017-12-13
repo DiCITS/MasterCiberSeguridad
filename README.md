@@ -17,9 +17,14 @@ This is the repository for:
 This  course contains:
 
 - [Architecture and start-up of the training work environment.](./Practice/architecture.md)
+- [Starting with LDAP commands](./LDAP/starting_ldap.md)
 - [Starting with Docker containers](./Docker/starting_docker.md)
 - [Starting with OpenNebula](./OpenNebula/starting_OpenNebula.md)
-- [Starting with LDAP commands](./LDAP/starting_ldap.md)
+- [Setup OpenLDAP TLS/SSL](.Practice/practice_with_VMs.md#creating-a-ldap-with-tlsssl-service)
+- [Setup freeIPA](./Practice/practice_with_VMs.md#creating-a-freeipa-service)
 - [SELinux](./SELinux/starting_SELinux.md)
+
+Extras:
+
 - [MongoDB](./MongoDB/starting_mongodb.md)
 
