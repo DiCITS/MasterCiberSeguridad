@@ -24,6 +24,11 @@ This  course contains:
 - [Setup freeIPA](./Practice/practice_with_VMs.md#creating-a-freeipa-service)
 - [SELinux](./SELinux/starting_SELinux.md)
 
+Practice:
+
+- [Deploy your practice with MVs](.Practice/practice_with_VMs.md)
+- [Deploy your practice with Containers](.Practice/)
+
 Extras:
 
 - [MongoDB](./MongoDB/starting_mongodb.md)
