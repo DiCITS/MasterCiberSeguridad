@@ -17,6 +17,7 @@ Table of Contents
       * [What is the difference between Docker and Virtual Machines?](#what-is-the-difference-between-docker-and-virtual-machines)
          * [VIRTUAL MACHINES](#virtual-machines)
          * [CONTAINERS](#containers)
+         * [KATA Containers](#katacontainers)
       * [Advantages of Docker](#advantages-of-docker)
    * [Starting](#starting)
    * [First container](#first-container)
@@ -103,10 +104,9 @@ ata Containers is an open source project and community working to build a standa
 - Docker runs on Windows, Mac and Linux.
 
 
+# Starting in a real environment
 
-# Starting
-
-Log and connect to our system with:
+Log and connect to our system ```bahia.ugr.es``` with:
 
 ```
 ssh manuparra@.........es
@@ -218,13 +218,13 @@ docker exec -i -t testnginx /bin/bash
 
 With this command your are inside of the container and you can modify things, for instance change the main website exposed by NGINX:
 
-``
+```
 vim /usr/share/nginx/html/index.html 
-``
+```
 
 ERROR: command ´´vi´´ is not in container. 
 
-***Why***? -> Container has been built with minimal software! ... , so you need to install it:
+***Why*** ? -> Container has been built with minimal software! ... , so you need to install it:
 
 ```
 apt-get install vim
