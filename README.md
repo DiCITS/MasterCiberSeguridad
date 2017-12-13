@@ -18,7 +18,8 @@ This  course contains:
 
 - [Architecture and start-up of the training work environment.](./Practice/architecture.md)
 - [Starting with Docker containers](./Docker/starting_docker.md)
-- [OpenNebula](./OpenNebula/starting_OpenNebula.md)
+- [Starting with OpenNebula](./OpenNebula/starting_OpenNebula.md)
+- [Starting with LDAP commands](./LDAP/starting_ldap.md)
 - [SELinux](./SELinux/starting_SELinux.md)
 - [MongoDB](./MongoDB/starting_mongodb.md)
 
