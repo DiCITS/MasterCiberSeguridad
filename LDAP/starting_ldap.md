@@ -24,6 +24,8 @@ Table of Contents
       * [Searching into DIT](#searching-into-dit)
 
 
+**This course must be done on ```docker.ugr.es```**
+
 
 <center><img src="http://www.openldap.org/images/headers/LDAPworm.gif"></center>
 
