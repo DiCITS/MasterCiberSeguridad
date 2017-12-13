@@ -8,20 +8,20 @@ Manuel Parra (manuelparra@decsai.ugr.es) & José Manuel Benítez (j.m.benitez@de
 Table of Contents
 =================
 
-      * [Training with LDAP](#training-with-ldap)
-         * [LDAP Basics](#ldap-basics)
-         * [Objects and Classes](#objects-and-classes)
-         * [Attributes](#attributes)
-         * [Entries](#entries)
-         * [DIT](#dit)
-         * [Distinguished name (dn)](#distinguished-name-dn)
-         * [Structure of the LDAP example](#structure-of-the-ldap-example)
-         * [Starting: check if everything is okay](#starting-check-if-everything-is-okay)
-         * [Adding an user](#adding-an-user)
-      * [Changing password of LDAP user](#changing-password-of-ldap-user)
-      * [Modifying LDAP user account data: DELETE, MODIFY.](#modifying-ldap-user-account-data-delete-modify)
-         * [Add a OU to the LDAP:](#add-a-ou-to-the-ldap)
-         * [Searching into DIT](#searching-into-dit)
+   * [Training with LDAP](#training-with-ldap)
+      * [LDAP Basics](#ldap-basics)
+      * [Objects and Classes](#objects-and-classes)
+      * [Attributes](#attributes)
+      * [Entries](#entries)
+      * [DIT](#dit)
+      * [Distinguished name (dn)](#distinguished-name-dn)
+      * [Structure of the LDAP example](#structure-of-the-ldap-example)
+      * [Starting: check if everything is okay](#starting-check-if-everything-is-okay)
+      * [Adding an user](#adding-an-user)
+   * [Changing password of LDAP user](#changing-password-of-ldap-user)
+   * [Modifying LDAP user account data: DELETE, MODIFY.](#modifying-ldap-user-account-data-delete-modify)
+      * [Add a OU to the LDAP:](#add-a-ou-to-the-ldap)
+      * [Searching into DIT](#searching-into-dit)
 
 
 
