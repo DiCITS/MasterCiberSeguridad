@@ -79,6 +79,7 @@ Table with port assignment:
 | cs_20XXXXX7 |  14140 al 14149	| 	30236,30237   | 
 | cs_77XXXXX4 |  14150 al 14159	| 	30238,30239   | 
 
+Ports in ```docker.ugr.es``  are redirected to ```389``` and ```636``` (i.e: first ```30208``` -> ```389``` ; second ```30209``` -> ```636```).
 
 
 ### Next steps
