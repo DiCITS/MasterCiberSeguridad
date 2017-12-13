@@ -50,17 +50,26 @@ Docker containers wrap a piece of software in a complete filesystem that contain
 
 Containers and virtual machines have similar resource isolation and allocation benefits, but a different architectural approach allows containers to be more portable and efficient.
 
+![DockersDiff](https://www.serverpronto.com/spu/wp-content/uploads/2016/05/MJHfm1c.jpg)
+
 ### VIRTUAL MACHINES
 
 Virtual machines include the application, the necessary binaries and libraries, and an **entire guest operating system**,  all of which can amount to tens of GBs.
 
-![VMsDiff](https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png)
 
 ### CONTAINERS
 
 Containers include the application and all of its dependencies, but **share the kernel with other containers, running as isolated processes in user space on the host operating system**. Docker containers are not tied to any specific infrastructure: they run on any computer, on any infrastructure, and in any cloud.
 
-![DockersDiff](https://www.docker.com/sites/default/files/WhatIsDocker_3_Containers_2_0.png)
+### KATAContainers
+
+Kata Containers is a new open source project building extremely lightweight virtual machines that seamlessly plug into the containers ecosystem.
+
+ata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs.
+
+ata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs.
+
+![KataContainers](https://katacontainers.io/img/kata-explained1@2x.png)
 
 ## Advantages of Docker
 
