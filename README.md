@@ -24,10 +24,11 @@ This  course contains:
 - [Setup freeIPA](./Practice/practice_with_VMs.md#creating-a-freeipa-service)
 - [SELinux](./SELinux/starting_SELinux.md)
 
-Practice:
+Practice (updated):
 
-- [Deploy your practice with MVs](.Practice/practice_with_VMs.md)
-- [Deploy your practice with Containers](.Practice/)
+- [Deploy App PHP container connect to LDAP Server ](./Practice/session1/container_phpldap.md)
+- [Deploy LDAP Server in your VM (opennebula)](./Practice/session1/virtualmachine_ldap_opennebula.md)
+
 
 Extras:
 
