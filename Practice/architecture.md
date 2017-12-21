@@ -61,8 +61,8 @@ To access the services, depending on the service we will use the corresponding a
 Table with port assignment:
 
 | 	User      |  bahia.ugr.es   |   docker.ugr.es | docker.ugr.es | docker.ugr.es  |
-| 	Name      |  external MULTI |   external LDAP | external WEB  | internal WEB IP|
 |-------------|-----------------|-----------------|---------------|----------------|
+| 	Name      |  external MULTI |   external LDAP | external WEB  | internal WEB IP|
 | cs_75XXXXX2 |  14000 al 14009	| 	30200,30201   | 30800         | 192.168.10.161 |
 | cs_76XXXXX5 |  14010 al 14019	| 	30202,30203   | 30801         | 192.168.10.162 |
 | cs_76XXXXX2 |  14020 al 14029	| 	30204,30205   | 30802         | 192.168.10.163 |
