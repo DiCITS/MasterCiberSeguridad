@@ -1,5 +1,28 @@
 # Installing SLDAP service
 
+Go to docker.ugr.es.
+
+```ssh cs_XXXXXX@docker.ugr.es```
+
+Login with your opennebula user:
+
+```oneuser login .....```
+
+Connect to you Virtual Machine:
+
+```ssh root@192.168....```
+
+Remember your VM IP. It can be reached using the comands:
+
+```
+onevm list
+onevm show <ID>
+```
+
+And review your assigned IP.
+
+Once inside the Virtual Machine, we will install the LDAP server:
+
 Install OpenLDAP application and services. More info and details: https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html
 
 ```yum -y install *openldap* migrationtools```
