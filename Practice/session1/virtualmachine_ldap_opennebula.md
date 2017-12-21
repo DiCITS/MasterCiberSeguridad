@@ -23,7 +23,11 @@ And review your assigned IP.
 
 Once inside the Virtual Machine, we will install the LDAP server:
 
-Install OpenLDAP application and services. More info and details: https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html
+Install OpenLDAP application and services. 
+
+More info and details: https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html
+
+Or use this tutorial: https://www.server-world.info/en/note?os=CentOS_7&p=openldap
 
 ```yum -y install *openldap* migrationtools```
 
