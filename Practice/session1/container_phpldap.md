@@ -10,6 +10,13 @@ Create a new container:
 
 ```docker run -p 14XXX:80 -v /home/cs_XXXXXX/web/:/var/www/html/ --name <your_container_name> -d vaniltonpinheiro/apache-php-ldap```
 
+If your are on ``bahia.ugr.es`` use:
+
+
+```docker run --privileged -p 14XXX:80 -v /home/cs_XXXXXX/web/:/var/www/html/ --name <your_container_name> -d vaniltonpinheiro/apache-php-ldap```
+
+In this case, we use ``--privileged`` due to SELinux policies on ``bahia.ugr.es``
+
 Go to and check if container is working:
 
 ```https://docker.ugr.es:14XXX/```
